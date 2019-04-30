@@ -1,0 +1,14 @@
+{
+  "name": "examphp",
+  "version": "1.0.0",
+  "description": "Voici la procédure a respecter pour installer le projet :",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mg",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
