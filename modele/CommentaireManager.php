@@ -52,7 +52,7 @@ class CommentaireManager extends Manager
 
 
     // suprime un commentaire
-    function deleteCommentaire($id)
+    public function deleteCommentaire($id)
     {
 
         $bdd = $this->connexionBdd();

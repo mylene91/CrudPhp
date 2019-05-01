@@ -52,6 +52,17 @@ try {
 			}
 		}
 
+		// effacer un commentaire
+        elseif($_GET['action'] == 'deleteCommentaire')
+        {
+            if(isset($_GET['id']) AND $_GET['id'] > 0) {
+                deleteCommentaire();
+            }
+            else {
+                throw new Exception('Je n arrive pas à supprimer ce commentaire');
+            }
+        }
+
 	}
 
 	else {

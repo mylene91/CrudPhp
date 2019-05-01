@@ -39,12 +39,9 @@
 
                 <div>
                     <input type="submit" value="Postez la modification de mon commentaire"/>
+                    <a class="btn btn-danger" href="index.php?action=deleteCommentaire&amp;id=<?=$commentaireSupprimme['id'] ?> ">Delete</a>
                 </div>
 
-            <div>
-                <a class="btn btn-danger" href="index.php?action=modifierCommentaire&amp;id=<?=$commentaireSupprimme['id'] ?> ">Delete</a>
-
-            </div>
         </form>  
 
 <?php $content = ob_get_clean() ; ?> <!-- contient tout le code généré ci-dessus >dans $content -->
